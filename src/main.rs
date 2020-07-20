@@ -39,8 +39,8 @@ fn main() -> Result<(), Box<dyn Error>> {
             let temp = read_temperature(&i2c);
             let data = SendData { timestamp: timestamp, temperature: temp };
             let payload = serde_json::to_string(&data).unwrap();
-            thread::sleep(sleep_time);
             mqtt_client.publish("iot/topic", QoS::AtLeastOnce, false, payload).unwrap();
+            thread::sleep(sleep_time);
         }
     });
 
