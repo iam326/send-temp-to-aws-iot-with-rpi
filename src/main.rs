@@ -10,9 +10,9 @@ struct Payload {
     temperature: f32,
 }
 
+const BUS: u8 = 1;
 const ADDRESS_ADT7410: u16 = 0x48;
 const ADDRESS_REGISTER: u8 = 0x00;
-const BUS: u8 = 1;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let client_id = env::var("AWS_IOT_CLIENT_ID").expect("AWS_IOT_CLIENT_ID is undefined.");
