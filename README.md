@@ -48,7 +48,7 @@ $ cdk deploy
 
 ## デバイス（Raspberry Pi） 側で データを Publish する
 
-環境やプログラムの詳細などは公開された記事をご参照ください（リンクは記事公開後、ここに貼り付けます）。こちらの手順は Rapsberry Pi 側で実施します。
+環境やプログラムの詳細などは公開している[こちらの記事](https://dev.classmethod.jp/articles/rust-rpi-publish-temp-to-aws-iot/)をご参照ください。こちらの手順は Rapsberry Pi 側で実施します。
 
 ### 1. 証明書等々の移動 & リネーム
 
