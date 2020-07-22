@@ -1,6 +1,6 @@
 # send-temp-to-aws-iot-with-rpi
 
-Rust を使って Raspberry Pi から温度センサーの値を読み取り、AWS Iot Core に Publish すると、送ったデータが DynamoDB に格納される流れを確認します。
+Rust を使って Raspberry Pi から温度センサーの値を読み取り、AWS Iot Core に Publish した後、送信したデータが DynamoDB に格納される流れを確認します。
 
 尚、AWS IoT Core や DynamoDB のテーブルなどをデプロイは、Raspberry Pi からではなく、macOS にて実施することを想定しています。（Raspberry Pi 上で cdk を叩けるようにするまでの手順等は、ここには記載しません）
 
