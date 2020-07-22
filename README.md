@@ -84,3 +84,4 @@ Publish(Publish { dup: false, qos: AtLeastOnce, retain: false, topic_name: "iot/
 
 AWS マネジメントコンソール にて DynamoDB のページに移動した後、`send-temp-to-aws-iot-with-rpi-table` テーブルの項目を確認してください。下記のように、Publish したデータが格納されていることが確認できると思います。
 
+![テーブル項目確認](./table.png)
